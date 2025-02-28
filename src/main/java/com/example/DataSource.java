@@ -1,3 +1,13 @@
+/*
+* File: DataSource.java
+* Author: Ritzl Bence
+* Copyright: 2025, Ritzl Bence
+* Group: Szoft II/1/N
+* Date: 2025-02-27
+* Github: https://github.com/BenceRitzl99/
+* Licenc: GNU GPL
+*/
+
 package com.example;
 
 import java.sql.Connection;
@@ -21,7 +31,7 @@ public class DataSource {
     Connection conn = mariadb.connect();
 
     String sql = "INSERT INTO cylinders" + 
-    "(radius, height, surface) VALUES" + 
+    "(sugar, magassag, felszin) VALUES" + 
     "(?, ?, ?)";
     PreparedStatement ps = conn.prepareStatement(sql);
     ps.setDouble(1, henger.radius);

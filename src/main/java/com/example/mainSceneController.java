@@ -1,3 +1,13 @@
+/*
+* File: mainSceneController.java
+* Author: Ritzl Bence
+* Copyright: 2025, Ritzl Bence
+* Group: Szoft II/1/N
+* Date: 2025-02-27
+* Github: https://github.com/BenceRitzl99/
+* Licenc: GNU GPL
+*/
+
 package com.example;
 
 import javafx.application.Platform;
@@ -34,17 +44,6 @@ public class mainSceneController {
         double sugar = Double.parseDouble(sugarStr);
         double magassag = Double.parseDouble(magassagStr);
 
-        
-
-        
-
-        
-
-        
-
-    
-
-        
         Double felszin = 2*Math.PI*sugar*sugar + 2*Math.PI*sugar*magassag;
         felszinField.setText(felszin.toString());
         

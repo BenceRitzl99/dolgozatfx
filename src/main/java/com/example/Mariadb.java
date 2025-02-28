@@ -1,3 +1,13 @@
+/*
+* File: Mariadb.java
+* Author: Ritzl Bence
+* Copyright: 2025, Ritzl Bence
+* Group: Szoft II/1/N
+* Date: 2025-02-27
+* Github: https://github.com/BenceRitzl99/
+* Licenc: GNU GPL
+*/
+
 package com.example;
 
 import java.sql.Connection;
